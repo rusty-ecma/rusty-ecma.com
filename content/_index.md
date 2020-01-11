@@ -11,6 +11,6 @@ render = true
 - RESAST (AST) - [github](https://github.com/rusty-ecma/RESAST)
 - RESW (Writer) - [github](https://github.com/rusty-ecma/RESW)
 - RES-Regex (Regex Validator) - [github](https://github.com/rusty-ecma/res-regex)
-
+- HashChain (Lexical Scope) - [github](https://github.com/rusty-ecma/hash-chain)
 
 <link href="/index.css" type="text/css" rel="stylesheet" />
