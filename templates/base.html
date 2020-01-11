@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+
+        <title>{% block htmltitle %}{{ config.title }}{% endblock htmltitle %}</title>
+
+        {% if config.generate_rss %}
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='rss.xml') }}">
+        {% endif %}
+    </head>
+    <body>
+        <aside class="nav" id="nav" role="navigation">
+            <div id="nav-list">
+                <a class="nav-link" href="">Home</a>
+                <a class="nav-link" href="https://rusty-ecma.github.io/rusty-ecma-book/">Book</a>
+                <a class="nav-link" href="https://github.com/rusty-ecma">Github</a>
+            </ul>
+        </aside>
+        <div class="content-wrapper" id="content-wrapper">
+            {% block content %} {% endblock content %}
+        </div>
+    </body>
+    </html>
