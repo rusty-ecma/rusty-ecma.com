@@ -12,5 +12,6 @@ render = true
 - RESW (Writer) - [github](https://github.com/rusty-ecma/RESW)
 - RES-Regex (Regex Validator) - [github](https://github.com/rusty-ecma/res-regex)
 - HashChain (Lexical Scope) - [github](https://github.com/rusty-ecma/hash-chain)
+- ECMA262 Harness - [github](https://github.com/rusty-ecma/test262-harness)
 
 <link href="/index.css" type="text/css" rel="stylesheet" />
