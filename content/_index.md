@@ -1,11 +1,15 @@
 +++
 render = true
 +++
-![a combination of the Rust and Ecma logos](/img/rust-ecma.svg)
-# Welcome to the home of Rusty ECMA</h1>
+
+# Welcome to the home of Rusty ECMA
+
 > A collection of Rust crates for interacting with JavaScript
 
+![a combination of the Rust and Ecma logos](/img/rust-ecma.svg)
+
 ## Current Crates
+
 - RESS (Lexer) - [github](https://github.com/rusty-ecma/RESSA)
 - RESSA (Parser) - [github](https://github.com/rusty-ecma/RESSA)
 - RESAST (AST) - [github](https://github.com/rusty-ecma/RESAST)
@@ -15,3 +19,7 @@ render = true
 - ECMA262 Harness - [github](https://github.com/rusty-ecma/test262-harness)
 
 <link href="/index.css" type="text/css" rel="stylesheet" />
+
+## Community
+
+[Join the Discord](https://discord.gg/xyT9XFtZ)
