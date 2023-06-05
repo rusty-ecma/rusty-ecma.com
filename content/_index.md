@@ -2,11 +2,12 @@
 render = true
 +++
 
+![a combination of the Rust and Ecma logos](/img/rust-ecma.svg)
+
 # Welcome to the home of Rusty ECMA
 
 > A collection of Rust crates for interacting with JavaScript
 
-![a combination of the Rust and Ecma logos](/img/rust-ecma.svg)
 
 ## Current Crates
 
