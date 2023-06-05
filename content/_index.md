@@ -23,4 +23,4 @@ render = true
 
 ## Community
 
-[Join the Discord](https://discord.gg/xyT9XFtZ)
+[Join the Discord](https://discord.gg/vJRGxyghtb)
